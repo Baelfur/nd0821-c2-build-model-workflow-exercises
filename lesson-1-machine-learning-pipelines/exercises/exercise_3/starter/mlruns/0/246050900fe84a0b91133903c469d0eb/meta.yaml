@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/246050900fe84a0b91133903c469d0eb/artifacts
+end_time: 1752362221614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 246050900fe84a0b91133903c469d0eb
+run_name: powerful-whale-726
+run_uuid: 246050900fe84a0b91133903c469d0eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362217617
+status: 4
+tags: []
+user_id: baelfur

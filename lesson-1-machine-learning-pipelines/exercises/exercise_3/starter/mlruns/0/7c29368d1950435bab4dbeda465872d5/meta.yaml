@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/7c29368d1950435bab4dbeda465872d5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c29368d1950435bab4dbeda465872d5
+run_name: popular-kite-725
+run_uuid: 7c29368d1950435bab4dbeda465872d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752361882537
+status: 1
+tags: []
+user_id: baelfur

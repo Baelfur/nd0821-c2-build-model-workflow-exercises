@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/755f7495a859459581ea677baf271ae3/artifacts
+end_time: 1752362479319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 755f7495a859459581ea677baf271ae3
+run_name: redolent-stag-832
+run_uuid: 755f7495a859459581ea677baf271ae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362441528
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/ded5deefcaf440b687a0e6297391598f/artifacts
+end_time: 1752362164810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ded5deefcaf440b687a0e6297391598f
+run_name: gregarious-roo-629
+run_uuid: ded5deefcaf440b687a0e6297391598f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362083571
+status: 4
+tags: []
+user_id: baelfur

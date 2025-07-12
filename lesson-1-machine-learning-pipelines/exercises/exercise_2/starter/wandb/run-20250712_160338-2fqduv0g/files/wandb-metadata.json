@@ -1,0 +1,177 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-debian-trixie-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2025-07-12T21:03:40.054413",
+    "startedAt": "2025-07-12T21:03:38.749104",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "This data sets consists of 3 different types of irises\u2019 (Setosa, Versicolour, and Virginica) petal and sepal length"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePathLocal": "download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/download_data.py",
+    "git": {
+        "remote": "https://github.com/Baelfur/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "9f30c7fe8e50306700662f8b2dec01d5ec866601"
+    },
+    "email": "baelfur@gmail.com",
+    "root": "/home/baelfur/nd0821-c2-build-model-workflow-exercises",
+    "host": "beast",
+    "username": "baelfur",
+    "executable": "/home/baelfur/miniconda3/envs/mlflow-5a99be5dead17723368b1fa55b5d40f500bcab5f/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3693.1070000000022,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 21.231094360351562
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 5070 Ti",
+            "memory_total": 17094934528
+        }
+    ],
+    "memory": {
+        "total": 31.30224609375
+    }
+}

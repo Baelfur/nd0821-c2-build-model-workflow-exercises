@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/3fa25f6952d34da3b2b0c876eedfafde/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3fa25f6952d34da3b2b0c876eedfafde
+run_name: luxuriant-skink-337
+run_uuid: 3fa25f6952d34da3b2b0c876eedfafde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752359873495
+status: 1
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/339ec5762772486fb33aa0c68b3f7f79/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 339ec5762772486fb33aa0c68b3f7f79
+run_name: thoughtful-conch-385
+run_uuid: 339ec5762772486fb33aa0c68b3f7f79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752361751791
+status: 1
+tags: []
+user_id: baelfur

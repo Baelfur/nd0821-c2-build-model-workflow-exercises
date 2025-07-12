@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/575662e4cc424f16a3d48b68a9d56c7b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 575662e4cc424f16a3d48b68a9d56c7b
+run_name: bemused-wasp-999
+run_uuid: 575662e4cc424f16a3d48b68a9d56c7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752359141886
+status: 1
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/cc099bbce7274af7b98b48088e8efc05/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc099bbce7274af7b98b48088e8efc05
+run_name: rumbling-shark-625
+run_uuid: cc099bbce7274af7b98b48088e8efc05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752361550991
+status: 1
+tags: []
+user_id: baelfur
