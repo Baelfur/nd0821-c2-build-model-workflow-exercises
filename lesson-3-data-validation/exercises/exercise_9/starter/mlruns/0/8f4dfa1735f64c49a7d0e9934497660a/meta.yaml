@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/8f4dfa1735f64c49a7d0e9934497660a/artifacts
+end_time: 1752405925973
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f4dfa1735f64c49a7d0e9934497660a
+run_name: bustling-rook-516
+run_uuid: 8f4dfa1735f64c49a7d0e9934497660a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752405910006
+status: 4
+tags: []
+user_id: baelfur

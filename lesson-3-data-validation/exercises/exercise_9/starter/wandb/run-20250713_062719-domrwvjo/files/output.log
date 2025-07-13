@@ -1,0 +1,65 @@
+[1m========================================================================================================================================= test session starts =========================================================================================================================================
+platform linux -- Python 3.12.11, pytest-8.0.2, pluggy-1.6.0 -- /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/python3.12
+cachedir: .pytest_cache
+rootdir: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                                                                                                                                                                                                                      
+test_data.py::test_kolmogorov_smirnov [31mFAILED
+============================================================================================================================================== FAILURES ===============================================================================================================================================
+[31m[1m_______________________________________________________________________________________________________________________________________ test_kolmogorov_smirnov _______________________________________________________________________________________________________________________________________
+data = (       Unnamed: 0  danceability  energy  key  loudness  mode  speechiness  ...            type  duration_ms  time_sig... NaN                            Lost Lands 2019                            Lost Lands 2019
+[12593 rows x 19 columns]), ks_alpha = 0.9
+    def test_kolmogorov_smirnov(data, ks_alpha):
+        sample1, sample2 = data
+        columns = [
+            "danceability",
+            "energy",
+            "loudness",
+            "speechiness",
+            "acousticness",
+            "instrumentalness",
+            "liveness",
+            "valence",
+            "tempo",
+            "duration_ms"
+        ]
+        # Bonferroni correction for multiple hypothesis testing
+        # (see my blog post on this topic to see where this comes from:
+        # https://towardsdatascience.com/precision-and-recall-trade-off-and-multiple-hypothesis-testing-family-wise-error-rate-vs-false-71a85057ca2b)
+        alpha_prime = 1 - (1 - ks_alpha)**(1 / len(columns))
+        for col in columns:
+            ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
+            # NOTE: as always, the p-value should be interpreted as the probability of
+            # obtaining a test statistic (TS) equal or more extreme that the one we got
+            # by chance, when the null hypothesis is true. If this probability is not
+            # large enough, this dataset should be looked at carefully, hence we fail
+            #assert p_value > alpha_prime
+            #drop na and check if p_value is greater than alpha_prime
+            p_value = p_value if not pd.isna(p_value) else 1.0
+>           assert p_value > alpha_prime, f"KS test failed for column {col}: p_value={p_value}, alpha_prime={alpha_prime}"
+[31m[1mE           AssertionError: KS test failed for column valence: p_value=0.1910608811990394, alpha_prime=0.2056717652757185
+[31m[1mE           assert 0.1910608811990394 > 0.2056717652757185
+[31m[1mtest_data.py[39m[22m:41: AssertionError
+[33m========================================================================================================================================== warnings summary ===========================================================================================================================================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:90
+  /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+    self.hub = sentry_sdk.Hub(client)
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+  /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+    scope.user = {"email": email}  # noqa
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174
+test_data.py::test_kolmogorov_smirnov
+test_data.py::test_kolmogorov_smirnov
+test_data.py::test_kolmogorov_smirnov
+  /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    self.FromDatetime(datetime.datetime.utcnow())
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[36m[1m======================================================================================================================================= short test summary info =======================================================================================================================================
+[31mFAILED[39m test_data.py::[1mtest_kolmogorov_smirnov[22m - AssertionError: KS test failed for column valence: p_value=0.1910608811990394, alpha_prime=0.2056717652757185
+[31m=================================================================================================================================== [1m1 failed[39m[22m, [33m11 warnings[31m in 2.44s ====================================================================================================================================
