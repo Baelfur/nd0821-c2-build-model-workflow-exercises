@@ -1,0 +1,54 @@
+[1mcollected 3 items                                                                                                                                                                                                                                                                                                                            
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [31mFAILED
+================================================================================================================================================================== FAILURES ==================================================================================================================================================================
+[31m[1m_____________________________________________________________________________________________________________________________________________________________ test_column_ranges _____________________________________________________________________________________________________________________________________________________________
+data =        danceability  energy  key  loudness  mode  speechiness  acousticness  instrumentalness  liveness  valence    te...            NaN       Best of Hardstyle 2020                         Best of Hardstyle 2020
+[41975 rows x 18 columns]
+    def test_column_ranges(data):
+        ranges = {
+            "time_signature": (1, 5),
+            "key": (0, 11),
+            "danceability": (0, 1),
+            "energy": (0, 1),
+            "loudness": (-35, 5),
+            "speechiness": (0, 1),
+            "acousticness": (0, 1),
+            "instrumentalness": (0, 1),
+            "liveness": (0, 1),
+            "valence": (0, 1),
+            "tempo": (50, 250),
+            "duration_ms": (20000, 1000000),
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+            # YOUR CODE HERE: check that the values in the column col_name are within the expected range
+            # HINT: look at the .between method of pandas, and then use .all() like in the previous
+>           assert data[col_name].between(minimum, maximum).all(), f"Column {col_name} has values outside the range {minimum} - {maximum}"
+[31m[1mE           AssertionError: Column loudness has values outside the range -35 - 5
+[31m[1mE           assert False
+[31m[1mE            +  where False = <bound method Series.all of 0         True\n1         True\n2        False\n3         True\n4         True\n         ...  \n41970     True\n41971     True\n41972     True\n41973     True\n41974     True\nName: loudness, Length: 41975, dtype: bool>()
+[31m[1mE            +    where <bound method Series.all of 0         True\n1         True\n2        False\n3         True\n4         True\n         ...  \n41970     True\n41971     True\n41972     True\n41973     True\n41974     True\nName: loudness, Length: 41975, dtype: bool> = 0         True\n1         True\n2        False\n3         True\n4         True\n         ...  \n41970     True\n41971     True\n41972     True\n41973     True\n41974     True\nName: loudness, Length: 41975, dtype: bool.all
+[31m[1mE            +      where 0         True\n1         True\n2        False\n3         True\n4         True\n         ...  \n41970     True\n41971     True\n41972     True\n41973     True\n41974     True\nName: loudness, Length: 41975, dtype: bool = <bound method Series.between of 0       -7.364\n1       -7.230\n2          NaN\n3       -4.710\n4       -7.668\n         ...  \n41970   -5.148\n41971   -7.922\n41972   -3.102\n41973   -4.777\n41974   -5.862\nName: loudness, Length: 41975, dtype: float64>(-35, 5)
+[31m[1mE            +        where <bound method Series.between of 0       -7.364\n1       -7.230\n2          NaN\n3       -4.710\n4       -7.668\n         ...  \n41970   -5.148\n41971   -7.922\n41972   -3.102\n41973   -4.777\n41974   -5.862\nName: loudness, Length: 41975, dtype: float64> = 0       -7.364\n1       -7.230\n2          NaN\n3       -4.710\n4       -7.668\n         ...  \n41970   -5.148\n41971   -7.922\n41972   -3.102\n41973   -4.777\n41974   -5.862\nName: loudness, Length: 41975, dtype: float64.between
+[31m[1mtest_data.py[39m[22m:97: AssertionError
+[33m============================================================================================================================================================== warnings summary ==============================================================================================================================================================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+../../../../../miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/wandb/analytics/sentry.py:90
+  /home/baelfur/miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+    self.hub = sentry_sdk.Hub(client)
+../../../../../miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+../../../../../miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+  /home/baelfur/miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/wandb/analytics/sentry.py:261: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+    scope.user = {"email": email}  # noqa
+../../../../../miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: 3 warnings
+test_data.py: 9 warnings
+  /home/baelfur/miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    self.FromDatetime(datetime.datetime.utcnow())
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[36m[1m========================================================================================================================================================== short test summary info ===========================================================================================================================================================
+[31mFAILED[39m test_data.py::[1mtest_column_ranges[22m - AssertionError: Column loudness has values outside the range -35 - 5
+[31m================================================================================================================================================== [1m1 failed[39m[22m, [32m2 passed[39m, [33m17 warnings[31m in 4.50s ==================================================================================================================================================

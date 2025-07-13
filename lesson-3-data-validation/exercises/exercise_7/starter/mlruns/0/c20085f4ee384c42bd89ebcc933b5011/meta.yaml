@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/c20085f4ee384c42bd89ebcc933b5011/artifacts
+end_time: 1752400626505
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c20085f4ee384c42bd89ebcc933b5011
+run_name: lyrical-yak-678
+run_uuid: c20085f4ee384c42bd89ebcc933b5011
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752400614710
+status: 3
+tags: []
+user_id: baelfur

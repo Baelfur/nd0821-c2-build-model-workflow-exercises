@@ -1,0 +1,171 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.11",
+    "heartbeatAt": "2025-07-13T09:49:44.392752",
+    "startedAt": "2025-07-13T09:49:43.579969",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        "."
+    ],
+    "state": "running",
+    "program": "/home/baelfur/miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/bin/pytest",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Baelfur/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "f420911a1a8f1a8e5dd7b7fa0afc4abf3d61c718"
+    },
+    "email": "baelfur@gmail.com",
+    "root": "/home/baelfur/nd0821-c2-build-model-workflow-exercises",
+    "host": "beast",
+    "username": "baelfur",
+    "executable": "/home/baelfur/miniconda3/envs/mlflow-7055caff924e2929b635405af43bd3b748481173/bin/python3.12",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3693.1070000000022,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 28.54439926147461
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 5070 Ti",
+            "memory_total": 17094934528
+        }
+    ],
+    "memory": {
+        "total": 31.30224609375
+    }
+}
