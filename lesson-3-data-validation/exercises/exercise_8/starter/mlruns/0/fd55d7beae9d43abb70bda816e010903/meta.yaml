@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/fd55d7beae9d43abb70bda816e010903/artifacts
+end_time: 1752402677431
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd55d7beae9d43abb70bda816e010903
+run_name: classy-fly-953
+run_uuid: fd55d7beae9d43abb70bda816e010903
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752402633165
+status: 4
+tags: []
+user_id: baelfur

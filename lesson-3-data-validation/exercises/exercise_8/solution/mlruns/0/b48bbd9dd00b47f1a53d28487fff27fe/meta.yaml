@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/solution/mlruns/0/b48bbd9dd00b47f1a53d28487fff27fe/artifacts
+end_time: 1752403518084
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b48bbd9dd00b47f1a53d28487fff27fe
+run_name: puzzled-mule-279
+run_uuid: b48bbd9dd00b47f1a53d28487fff27fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752403500859
+status: 4
+tags: []
+user_id: baelfur

@@ -30,6 +30,28 @@ def go(args):
     logger.info("Fixing missing values in Song Name")
     df['song_name'].fillna(value='', inplace=True)
     
+    # lesson 8 is shitting the bed because of nans in all numerical columns, stubbing out a dataclean to drop rows with nans in any of the numerical columns
+    """
+    logger.info("Dropping rows with NaN in numerical columns")
+    
+    numerical_columns = [
+        "danceability",
+        "energy",
+        "loudness",
+        "speechiness",
+        "acousticness",
+        "instrumentalness",
+        "liveness",
+        "valence",
+        "tempo",
+        "duration_ms"
+    ]
+    df = df.dropna(subset=[col for col in numerical_columns if col in df.columns])
+    logger.info("Dropped rows with NaN in numerical columns")
+    """
+    # If you want to keep the rows with NaN in numerical columns, you can comment out the above lines
+    
+    
     logger.info("Creating text feature")
     df['text_feature'] = df['title'] + ' ' + df['song_name']
     
@@ -51,7 +73,7 @@ def go(args):
     os.remove(filename)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":#
     parser = argparse.ArgumentParser(
         description="Preprocess a dataset",
         fromfile_prefix_chars="@",

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/32fbcfe460184afab0e1d5043fd638c3/artifacts
+end_time: 1752404349407
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32fbcfe460184afab0e1d5043fd638c3
+run_name: delicate-stork-930
+run_uuid: 32fbcfe460184afab0e1d5043fd638c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752404335649
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/23a2e14f9e554f22a1a2f84336fc548b/artifacts
+end_time: 1752404179118
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23a2e14f9e554f22a1a2f84336fc548b
+run_name: luminous-dolphin-855
+run_uuid: 23a2e14f9e554f22a1a2f84336fc548b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752404162427
+status: 3
+tags: []
+user_id: baelfur

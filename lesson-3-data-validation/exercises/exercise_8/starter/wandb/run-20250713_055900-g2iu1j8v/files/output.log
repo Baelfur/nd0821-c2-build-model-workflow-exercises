@@ -1,0 +1,24 @@
+[1mcollected 1 item                                                                                                                                                                                                                                                                                                                             
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m============================================================================================================================================================== warnings summary ==============================================================================================================================================================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:90
+  /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+    self.hub = sentry_sdk.Hub(client)
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+  /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+    scope.user = {"email": email}  # noqa
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174
+../../../../../miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174
+test_data.py::test_kolmogorov_smirnov
+test_data.py::test_kolmogorov_smirnov
+test_data.py::test_kolmogorov_smirnov
+  /home/baelfur/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    self.FromDatetime(datetime.datetime.utcnow())
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m======================================================================================================================================================= [32m1 passed[39m, [33m[1m11 warnings[22m in 5.76s =======================================================================================================================================================

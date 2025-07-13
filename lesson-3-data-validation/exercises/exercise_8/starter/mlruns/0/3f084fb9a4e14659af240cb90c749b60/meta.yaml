@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/3f084fb9a4e14659af240cb90c749b60/artifacts
+end_time: 1752403404722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f084fb9a4e14659af240cb90c749b60
+run_name: grandiose-koi-568
+run_uuid: 3f084fb9a4e14659af240cb90c749b60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752403387802
+status: 4
+tags: []
+user_id: baelfur

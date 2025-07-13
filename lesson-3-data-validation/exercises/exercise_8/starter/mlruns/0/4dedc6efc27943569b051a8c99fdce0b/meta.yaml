@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/4dedc6efc27943569b051a8c99fdce0b/artifacts
+end_time: 1752402874565
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4dedc6efc27943569b051a8c99fdce0b
+run_name: whimsical-smelt-411
+run_uuid: 4dedc6efc27943569b051a8c99fdce0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752402860738
+status: 4
+tags: []
+user_id: baelfur
