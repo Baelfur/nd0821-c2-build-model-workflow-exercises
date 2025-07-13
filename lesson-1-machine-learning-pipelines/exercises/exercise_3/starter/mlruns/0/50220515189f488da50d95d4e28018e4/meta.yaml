@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/50220515189f488da50d95d4e28018e4/artifacts
+end_time: 1752370845131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50220515189f488da50d95d4e28018e4
+run_name: funny-finch-725
+run_uuid: 50220515189f488da50d95d4e28018e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752370831378
+status: 3
+tags: []
+user_id: baelfur

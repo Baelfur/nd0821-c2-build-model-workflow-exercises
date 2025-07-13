@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/379406076b39400a91c9333beeaa66b0/artifacts
+end_time: 1752370766104
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 379406076b39400a91c9333beeaa66b0
+run_name: traveling-dog-17
+run_uuid: 379406076b39400a91c9333beeaa66b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752370749159
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/7fb39983c7e14b2db81380acef8bc05e/artifacts
+end_time: 1752370785530
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fb39983c7e14b2db81380acef8bc05e
+run_name: lyrical-skink-821
+run_uuid: 7fb39983c7e14b2db81380acef8bc05e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752370766115
+status: 3
+tags: []
+user_id: baelfur

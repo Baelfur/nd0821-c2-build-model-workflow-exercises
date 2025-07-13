@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/1030896a837545f1811c2895f47767d0/artifacts
+end_time: 1752370866305
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1030896a837545f1811c2895f47767d0
+run_name: nebulous-loon-275
+run_uuid: 1030896a837545f1811c2895f47767d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752370828006
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,210 @@
+2025-07-12 20:39:32,822 INFO    StreamThr :75802 [internal.py:wandb_internal():86] W&B internal server running at pid: 75802, started at: 2025-07-12 20:39:32.821773
+2025-07-12 20:39:32,824 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: status
+2025-07-12 20:39:32,826 INFO    WriterThread:75802 [datastore.py:open_for_write():87] open: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/run-ptrtn1kg.wandb
+2025-07-12 20:39:32,826 DEBUG   SenderThread:75802 [sender.py:send():378] send: header
+2025-07-12 20:39:32,828 DEBUG   SenderThread:75802 [sender.py:send():378] send: run
+2025-07-12 20:39:33,193 INFO    SenderThread:75802 [dir_watcher.py:__init__():211] watching files in: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files
+2025-07-12 20:39:33,193 INFO    SenderThread:75802 [sender.py:_start_run_threads():1099] run started: ptrtn1kg with start time 1752370772.822544
+2025-07-12 20:39:33,196 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: check_version
+2025-07-12 20:39:33,196 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: check_version
+2025-07-12 20:39:33,358 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: run_start
+2025-07-12 20:39:33,588 DEBUG   HandlerThread:75802 [system_info.py:__init__():26] System info init
+2025-07-12 20:39:33,588 DEBUG   HandlerThread:75802 [system_info.py:__init__():41] System info init done
+2025-07-12 20:39:33,588 INFO    HandlerThread:75802 [system_monitor.py:start():194] Starting system monitor
+2025-07-12 20:39:33,589 INFO    SystemMonitor:75802 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-07-12 20:39:33,589 INFO    HandlerThread:75802 [system_monitor.py:probe():214] Collecting system info
+2025-07-12 20:39:33,590 INFO    SystemMonitor:75802 [interfaces.py:start():190] Started cpu monitoring
+2025-07-12 20:39:33,591 INFO    SystemMonitor:75802 [interfaces.py:start():190] Started disk monitoring
+2025-07-12 20:39:33,593 INFO    SystemMonitor:75802 [interfaces.py:start():190] Started gpu monitoring
+2025-07-12 20:39:33,594 INFO    SystemMonitor:75802 [interfaces.py:start():190] Started memory monitoring
+2025-07-12 20:39:33,595 INFO    SystemMonitor:75802 [interfaces.py:start():190] Started network monitoring
+2025-07-12 20:39:33,612 DEBUG   HandlerThread:75802 [system_info.py:probe():150] Probing system
+2025-07-12 20:39:33,674 DEBUG   HandlerThread:75802 [system_info.py:_probe_git():135] Probing git
+2025-07-12 20:39:33,679 DEBUG   HandlerThread:75802 [system_info.py:_probe_git():143] Probing git done
+2025-07-12 20:39:33,679 DEBUG   HandlerThread:75802 [system_info.py:probe():198] Probing system done
+2025-07-12 20:39:33,679 DEBUG   HandlerThread:75802 [system_monitor.py:probe():223] {'os': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'python': '3.10.18', 'heartbeatAt': '2025-07-13T01:39:33.612604', 'startedAt': '2025-07-13T01:39:32.816565', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'iris.csv:latest', '--artifact_name', 'clean_data.csv', '--artifact_type', 'processed_data', '--artifact_description', 'Cleaned data'), 'state': 'running', 'program': '/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py', 'codePathLocal': 'run.py', 'codePath': 'lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py', 'git': {'remote': 'https://github.com/Baelfur/nd0821-c2-build-model-workflow-exercises.git', 'commit': '350cb94939c69a5c7405caaed760ace03216207c'}, 'email': 'baelfur@gmail.com', 'root': '/home/baelfur/nd0821-c2-build-model-workflow-exercises', 'host': 'beast', 'username': 'baelfur', 'executable': '/home/baelfur/miniconda3/envs/mlflow-f3dbdf318eac2492665afd579a1f2a4bad45ed77/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3693.1070000000022, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}, {'current': 3693.107, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 24.576831817626953}}, 'gpu': 'NVIDIA GeForce RTX 5070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 5070 Ti', 'memory_total': 17094934528}], 'memory': {'total': 31.30224609375}}
+2025-07-12 20:39:33,680 INFO    HandlerThread:75802 [system_monitor.py:probe():224] Finished collecting system info
+2025-07-12 20:39:33,680 INFO    HandlerThread:75802 [system_monitor.py:probe():227] Publishing system info
+2025-07-12 20:39:33,680 DEBUG   HandlerThread:75802 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-07-12 20:39:34,195 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/conda-environment.yaml
+2025-07-12 20:39:35,019 DEBUG   HandlerThread:75802 [system_info.py:_save_conda():219] Saving conda packages done
+2025-07-12 20:39:35,020 INFO    HandlerThread:75802 [system_monitor.py:probe():229] Finished publishing system info
+2025-07-12 20:39:35,022 DEBUG   SenderThread:75802 [sender.py:send():378] send: files
+2025-07-12 20:39:35,022 INFO    SenderThread:75802 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-07-12 20:39:35,088 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: python_packages
+2025-07-12 20:39:35,088 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: python_packages
+2025-07-12 20:39:35,089 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: stop_status
+2025-07-12 20:39:35,089 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: stop_status
+2025-07-12 20:39:35,091 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: internal_messages
+2025-07-12 20:39:35,194 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/conda-environment.yaml
+2025-07-12 20:39:35,194 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/wandb-metadata.json
+2025-07-12 20:39:35,195 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/requirements.txt
+2025-07-12 20:39:35,323 DEBUG   SenderThread:75802 [sender.py:send():378] send: telemetry
+2025-07-12 20:39:35,436 INFO    wandb-upload_0:75802 [upload_job.py:push():131] Uploaded file /tmp/tmpbww7m4j5wandb/pjc5o1ws-wandb-metadata.json
+2025-07-12 20:39:35,750 DEBUG   SenderThread:75802 [sender.py:send():378] send: use_artifact
+2025-07-12 20:39:36,195 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/output.log
+2025-07-12 20:39:37,334 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: partial_history
+2025-07-12 20:39:37,334 DEBUG   SenderThread:75802 [sender.py:send():378] send: files
+2025-07-12 20:39:37,335 INFO    SenderThread:75802 [sender.py:_save_file():1365] saving file media/images/t-SNE_0_77e329981c90797740ff.png with policy now
+2025-07-12 20:39:37,335 DEBUG   SenderThread:75802 [sender.py:send():378] send: history
+2025-07-12 20:39:37,336 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: summary_record
+2025-07-12 20:39:37,336 INFO    SenderThread:75802 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-07-12 20:39:37,533 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: log_artifact
+2025-07-12 20:39:37,534 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: log_artifact
+2025-07-12 20:39:37,647 INFO    wandb-upload_0:75802 [upload_job.py:push():131] Uploaded file /tmp/tmpbww7m4j5wandb/ols5db71-media/images/t-SNE_0_77e329981c90797740ff.png
+2025-07-12 20:39:38,158 INFO    wandb-upload_0:75802 [upload_job.py:push():89] Uploaded file /home/baelfur/.local/share/wandb/artifacts/staging/tmps0kh53y5
+2025-07-12 20:39:38,196 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/output.log
+2025-07-12 20:39:38,196 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/wandb-summary.json
+2025-07-12 20:39:38,196 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/media/images/t-SNE_0_77e329981c90797740ff.png
+2025-07-12 20:39:38,197 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/media/images
+2025-07-12 20:39:38,197 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/media
+2025-07-12 20:39:38,537 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: poll_exit
+2025-07-12 20:39:38,685 INFO    SenderThread:75802 [sender.py:send_request_log_artifact():1431] logged artifact clean_data.csv - {'id': 'QXJ0aWZhY3Q6MTg3NjQ4OTMyOQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY4NTc3MTk3Nw==', 'latestArtifact': None}}
+2025-07-12 20:39:38,685 DEBUG   SenderThread:75802 [sender.py:send():378] send: exit
+2025-07-12 20:39:38,685 INFO    SenderThread:75802 [sender.py:send_exit():585] handling exit code: 0
+2025-07-12 20:39:38,685 INFO    SenderThread:75802 [sender.py:send_exit():587] handling runtime: 4
+2025-07-12 20:39:38,686 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: status_report
+2025-07-12 20:39:38,686 INFO    SenderThread:75802 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-07-12 20:39:38,686 INFO    SenderThread:75802 [sender.py:send_exit():593] send defer
+2025-07-12 20:39:38,686 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: poll_exit
+2025-07-12 20:39:38,687 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,687 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 0
+2025-07-12 20:39:38,687 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,687 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-07-12 20:39:38,687 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 1
+2025-07-12 20:39:38,687 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,687 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 1
+2025-07-12 20:39:38,688 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,688 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-07-12 20:39:38,688 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 2
+2025-07-12 20:39:38,688 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,688 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 2
+2025-07-12 20:39:38,688 INFO    HandlerThread:75802 [system_monitor.py:finish():203] Stopping system monitor
+2025-07-12 20:39:38,688 DEBUG   SystemMonitor:75802 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-07-12 20:39:38,688 DEBUG   SystemMonitor:75802 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-07-12 20:39:38,688 DEBUG   SystemMonitor:75802 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-07-12 20:39:38,688 INFO    HandlerThread:75802 [interfaces.py:finish():202] Joined cpu monitor
+2025-07-12 20:39:38,689 INFO    HandlerThread:75802 [interfaces.py:finish():202] Joined disk monitor
+2025-07-12 20:39:38,700 INFO    HandlerThread:75802 [interfaces.py:finish():202] Joined gpu monitor
+2025-07-12 20:39:38,700 INFO    HandlerThread:75802 [interfaces.py:finish():202] Joined memory monitor
+2025-07-12 20:39:38,700 INFO    HandlerThread:75802 [interfaces.py:finish():202] Joined network monitor
+2025-07-12 20:39:38,700 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,701 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-07-12 20:39:38,701 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 3
+2025-07-12 20:39:38,701 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,701 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 3
+2025-07-12 20:39:38,701 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,701 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-07-12 20:39:38,701 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 4
+2025-07-12 20:39:38,701 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,701 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 4
+2025-07-12 20:39:38,701 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,702 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-07-12 20:39:38,702 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 5
+2025-07-12 20:39:38,702 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,702 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 5
+2025-07-12 20:39:38,702 DEBUG   SenderThread:75802 [sender.py:send():378] send: summary
+2025-07-12 20:39:38,702 INFO    SenderThread:75802 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-07-12 20:39:38,703 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,703 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-07-12 20:39:38,703 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 6
+2025-07-12 20:39:38,703 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,703 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 6
+2025-07-12 20:39:38,703 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,703 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-07-12 20:39:38,705 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: status_report
+2025-07-12 20:39:38,819 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 7
+2025-07-12 20:39:38,819 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:38,819 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 7
+2025-07-12 20:39:38,819 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:38,819 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-07-12 20:39:39,094 INFO    wandb-upload_0:75802 [upload_job.py:push():131] Uploaded file /tmp/tmpbww7m4j5wandb/jq374pz6-media/images/t-SNE_0_77e329981c90797740ff.png
+2025-07-12 20:39:39,196 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/config.yaml
+2025-07-12 20:39:39,196 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/wandb-summary.json
+2025-07-12 20:39:39,331 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 8
+2025-07-12 20:39:39,331 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:39,331 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 8
+2025-07-12 20:39:39,331 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:39,332 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-07-12 20:39:39,332 INFO    SenderThread:75802 [job_builder.py:build():298] Attempting to build job artifact
+2025-07-12 20:39:39,332 INFO    SenderThread:75802 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-07-12 20:39:39,333 INFO    SenderThread:75802 [job_builder.py:build():404] adding wandb-job metadata file
+2025-07-12 20:39:39,339 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 9
+2025-07-12 20:39:39,340 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:39,340 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 9
+2025-07-12 20:39:39,340 DEBUG   SenderThread:75802 [sender.py:send():378] send: artifact
+2025-07-12 20:39:39,537 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: poll_exit
+2025-07-12 20:39:39,917 INFO    wandb-upload_1:75802 [upload_job.py:push():89] Uploaded file /home/baelfur/.local/share/wandb/artifacts/staging/tmpdwpuxvuv
+2025-07-12 20:39:40,038 INFO    wandb-upload_0:75802 [upload_job.py:push():89] Uploaded file /home/baelfur/.local/share/wandb/artifacts/staging/tmpwdmh69t7
+2025-07-12 20:39:40,196 INFO    Thread-12 :75802 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/output.log
+2025-07-12 20:39:40,825 INFO    SenderThread:75802 [sender.py:send_artifact():1443] sent artifact job-https___github.com_Baelfur_nd0821-c2-build-model-workflow-e..ning-pipelines_exercises_exercise_3_starter_process_data_run.py - {'id': 'QXJ0aWZhY3Q6MTg3NjQ4OTM4NQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY4NTc3MTk5MQ==', 'latestArtifact': None}}
+2025-07-12 20:39:40,825 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:40,825 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-07-12 20:39:40,825 INFO    SenderThread:75802 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-07-12 20:39:41,197 INFO    SenderThread:75802 [dir_watcher.py:finish():388] scan: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files
+2025-07-12 20:39:41,197 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/conda-environment.yaml conda-environment.yaml
+2025-07-12 20:39:41,197 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/requirements.txt requirements.txt
+2025-07-12 20:39:41,198 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/wandb-summary.json wandb-summary.json
+2025-07-12 20:39:41,198 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/config.yaml config.yaml
+2025-07-12 20:39:41,199 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/output.log output.log
+2025-07-12 20:39:41,201 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/wandb-metadata.json wandb-metadata.json
+2025-07-12 20:39:41,203 INFO    SenderThread:75802 [dir_watcher.py:finish():402] scan save: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/media/images/t-SNE_0_77e329981c90797740ff.png media/images/t-SNE_0_77e329981c90797740ff.png
+2025-07-12 20:39:41,203 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 10
+2025-07-12 20:39:41,203 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: poll_exit
+2025-07-12 20:39:41,204 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:41,205 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 10
+2025-07-12 20:39:41,206 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:41,207 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-07-12 20:39:41,207 INFO    SenderThread:75802 [file_pusher.py:finish():172] shutting down file pusher
+2025-07-12 20:39:41,441 INFO    wandb-upload_0:75802 [upload_job.py:push():131] Uploaded file /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/requirements.txt
+2025-07-12 20:39:41,461 INFO    wandb-upload_1:75802 [upload_job.py:push():131] Uploaded file /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/conda-environment.yaml
+2025-07-12 20:39:41,538 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: poll_exit
+2025-07-12 20:39:41,539 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: poll_exit
+2025-07-12 20:39:41,661 INFO    wandb-upload_3:75802 [upload_job.py:push():131] Uploaded file /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/config.yaml
+2025-07-12 20:39:41,663 INFO    wandb-upload_2:75802 [upload_job.py:push():131] Uploaded file /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/wandb-summary.json
+2025-07-12 20:39:41,694 INFO    wandb-upload_4:75802 [upload_job.py:push():131] Uploaded file /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/files/output.log
+2025-07-12 20:39:41,895 INFO    Thread-11 (_thread_body):75802 [sender.py:transition_state():613] send defer: 11
+2025-07-12 20:39:41,895 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:41,895 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 11
+2025-07-12 20:39:41,896 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:41,896 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-07-12 20:39:41,896 INFO    SenderThread:75802 [file_pusher.py:join():178] waiting for file pusher
+2025-07-12 20:39:41,896 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 12
+2025-07-12 20:39:41,896 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:41,896 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 12
+2025-07-12 20:39:41,896 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:41,896 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-07-12 20:39:41,897 INFO    SenderThread:75802 [file_stream.py:finish():595] file stream finish called
+2025-07-12 20:39:42,011 INFO    SenderThread:75802 [file_stream.py:finish():599] file stream finish is done
+2025-07-12 20:39:42,011 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 13
+2025-07-12 20:39:42,011 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:42,011 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 13
+2025-07-12 20:39:42,012 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:42,012 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-07-12 20:39:42,012 INFO    SenderThread:75802 [sender.py:transition_state():613] send defer: 14
+2025-07-12 20:39:42,012 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: defer
+2025-07-12 20:39:42,012 INFO    HandlerThread:75802 [handler.py:handle_request_defer():172] handle defer: 14
+2025-07-12 20:39:42,012 DEBUG   SenderThread:75802 [sender.py:send():378] send: final
+2025-07-12 20:39:42,012 DEBUG   SenderThread:75802 [sender.py:send():378] send: footer
+2025-07-12 20:39:42,012 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: defer
+2025-07-12 20:39:42,012 INFO    SenderThread:75802 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-07-12 20:39:42,013 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: poll_exit
+2025-07-12 20:39:42,013 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: poll_exit
+2025-07-12 20:39:42,013 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: poll_exit
+2025-07-12 20:39:42,014 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: poll_exit
+2025-07-12 20:39:42,014 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: server_info
+2025-07-12 20:39:42,014 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: server_info
+2025-07-12 20:39:42,016 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: get_summary
+2025-07-12 20:39:42,016 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: sampled_history
+2025-07-12 20:39:42,017 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: internal_messages
+2025-07-12 20:39:42,017 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: job_info
+2025-07-12 20:39:42,089 DEBUG   SenderThread:75802 [sender.py:send_request():405] send_request: job_info
+2025-07-12 20:39:42,090 INFO    MainThread:75802 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-07-12 20:39:42,090 INFO    MainThread:75802 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-07-12 20:39:42,090 INFO    MainThread:75802 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-07-12 20:39:42,090 DEBUG   HandlerThread:75802 [handler.py:handle_request():146] handle_request: shutdown
+2025-07-12 20:39:42,090 INFO    HandlerThread:75802 [handler.py:finish():869] shutting down handler
+2025-07-12 20:39:44,209 INFO    WriterThread:75802 [datastore.py:close():296] close: /home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/wandb/run-20250712_203932-ptrtn1kg/run-ptrtn1kg.wandb
+2025-07-12 20:39:44,282 INFO    SenderThread:75802 [sender.py:finish():1521] shutting down sender
+2025-07-12 20:39:44,282 INFO    SenderThread:75802 [file_pusher.py:finish():172] shutting down file pusher
+2025-07-12 20:39:44,282 INFO    SenderThread:75802 [file_pusher.py:join():178] waiting for file pusher

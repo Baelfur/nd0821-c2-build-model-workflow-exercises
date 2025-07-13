@@ -1,0 +1,177 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.10.18",
+    "heartbeatAt": "2025-07-13T01:39:33.612604",
+    "startedAt": "2025-07-13T01:39:32.816565",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "iris.csv:latest",
+        "--artifact_name",
+        "clean_data.csv",
+        "--artifact_type",
+        "processed_data",
+        "--artifact_description",
+        "Cleaned data"
+    ],
+    "state": "running",
+    "program": "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py",
+    "git": {
+        "remote": "https://github.com/Baelfur/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "350cb94939c69a5c7405caaed760ace03216207c"
+    },
+    "email": "baelfur@gmail.com",
+    "root": "/home/baelfur/nd0821-c2-build-model-workflow-exercises",
+    "host": "beast",
+    "username": "baelfur",
+    "executable": "/home/baelfur/miniconda3/envs/mlflow-f3dbdf318eac2492665afd579a1f2a4bad45ed77/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3693.1070000000022,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.107,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 24.576831817626953
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 5070 Ti",
+            "memory_total": 17094934528
+        }
+    ],
+    "memory": {
+        "total": 31.30224609375
+    }
+}
