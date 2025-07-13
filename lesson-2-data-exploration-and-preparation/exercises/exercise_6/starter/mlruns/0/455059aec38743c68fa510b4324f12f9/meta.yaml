@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/455059aec38743c68fa510b4324f12f9/artifacts
+end_time: 1752391673342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 455059aec38743c68fa510b4324f12f9
+run_name: capable-bug-415
+run_uuid: 455059aec38743c68fa510b4324f12f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752391657806
+status: 3
+tags: []
+user_id: baelfur

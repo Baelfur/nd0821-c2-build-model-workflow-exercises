@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/b9971a002bd94d178ac7a7412522fb21/artifacts
+end_time: 1752390096606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9971a002bd94d178ac7a7412522fb21
+run_name: wise-chimp-172
+run_uuid: b9971a002bd94d178ac7a7412522fb21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752390055585
+status: 3
+tags: []
+user_id: baelfur

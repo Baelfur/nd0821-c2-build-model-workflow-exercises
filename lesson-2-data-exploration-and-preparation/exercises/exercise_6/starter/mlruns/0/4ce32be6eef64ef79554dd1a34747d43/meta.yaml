@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/4ce32be6eef64ef79554dd1a34747d43/artifacts
+end_time: 1752391650739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ce32be6eef64ef79554dd1a34747d43
+run_name: awesome-squirrel-405
+run_uuid: 4ce32be6eef64ef79554dd1a34747d43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752391629007
+status: 3
+tags: []
+user_id: baelfur
