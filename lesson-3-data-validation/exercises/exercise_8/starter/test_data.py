@@ -53,6 +53,7 @@ def test_kolmogorov_smirnov(data):
         # Add an assertion so that the test fails if p_value > alpha_prime
         #assert p_value > alpha_prime
         
+        # TODO: REMOVE THIS AND MOVE IT TO THE INFERANCE PIPELINE
         #drop na and check if p_value is greater than alpha_prime
         p_value = p_value if not pd.isna(p_value) else 1.0
         assert p_value > alpha_prime, f"KS test failed for column {col}: p_value={p_value}, alpha_prime={alpha_prime}"
