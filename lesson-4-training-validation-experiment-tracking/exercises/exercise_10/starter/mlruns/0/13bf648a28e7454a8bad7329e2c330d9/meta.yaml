@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/13bf648a28e7454a8bad7329e2c330d9/artifacts
+end_time: 1752440052092
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13bf648a28e7454a8bad7329e2c330d9
+run_name: funny-shoat-739
+run_uuid: 13bf648a28e7454a8bad7329e2c330d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752440036709
+status: 4
+tags: []
+user_id: baelfur

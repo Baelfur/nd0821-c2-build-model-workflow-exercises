@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/1ea58d4e769744dbb4bebb5d55d5389c/artifacts
+end_time: 1752440051881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ea58d4e769744dbb4bebb5d55d5389c
+run_name: agreeable-bird-771
+run_uuid: 1ea58d4e769744dbb4bebb5d55d5389c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752440039631
+status: 4
+tags: []
+user_id: baelfur

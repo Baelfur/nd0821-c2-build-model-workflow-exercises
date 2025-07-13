@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/solution/mlruns/0/e67cd03ac45743cda2dbf31fb4a69881/artifacts
+end_time: 1752440173774
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e67cd03ac45743cda2dbf31fb4a69881
+run_name: gifted-boar-530
+run_uuid: e67cd03ac45743cda2dbf31fb4a69881
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752440098177
+status: 3
+tags: []
+user_id: baelfur

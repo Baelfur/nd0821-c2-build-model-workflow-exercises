@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/46ab7887772246fd983fcd8253552535/artifacts
+end_time: 1752440790204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46ab7887772246fd983fcd8253552535
+run_name: shivering-dove-415
+run_uuid: 46ab7887772246fd983fcd8253552535
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752440711337
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/ecff272e7efd4ba19164728a126afff4/artifacts
+end_time: 1752439560747
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ecff272e7efd4ba19164728a126afff4
+run_name: popular-mink-105
+run_uuid: ecff272e7efd4ba19164728a126afff4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752439545618
+status: 4
+tags: []
+user_id: baelfur

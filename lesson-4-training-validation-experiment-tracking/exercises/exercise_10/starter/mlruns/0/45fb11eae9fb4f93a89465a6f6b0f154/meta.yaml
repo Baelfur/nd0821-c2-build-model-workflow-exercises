@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/45fb11eae9fb4f93a89465a6f6b0f154/artifacts
+end_time: 1752439560518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45fb11eae9fb4f93a89465a6f6b0f154
+run_name: dapper-sheep-969
+run_uuid: 45fb11eae9fb4f93a89465a6f6b0f154
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752439548582
+status: 4
+tags: []
+user_id: baelfur

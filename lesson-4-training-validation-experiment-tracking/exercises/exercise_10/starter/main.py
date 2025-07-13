@@ -8,7 +8,7 @@ from omegaconf import DictConfig, OmegaConf
 
 
 # This automatically reads in the configuration
-@hydra.main(config_name='config')
+@hydra.main(config_path='.', config_name='config')
 def go(config: DictConfig):
 
     wandb.config = OmegaConf.to_container(
@@ -24,7 +24,7 @@ def go(config: DictConfig):
     # You can get the path at the root of the MLflow project with this:
     root_path = hydra.utils.get_original_cwd()
 
-    # Serialize random forest configuration
+    # Serialize decision tree configuration
     model_config = os.path.abspath("random_forest_config.json")
 
     with open(model_config, "w+") as fp:

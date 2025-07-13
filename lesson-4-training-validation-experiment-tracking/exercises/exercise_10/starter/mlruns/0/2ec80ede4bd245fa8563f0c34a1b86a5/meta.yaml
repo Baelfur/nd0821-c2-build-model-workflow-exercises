@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/2ec80ede4bd245fa8563f0c34a1b86a5/artifacts
+end_time: 1752436379370
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ec80ede4bd245fa8563f0c34a1b86a5
+run_name: clean-ape-597
+run_uuid: 2ec80ede4bd245fa8563f0c34a1b86a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752436306088
+status: 4
+tags: []
+user_id: baelfur

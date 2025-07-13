@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/f81c350d1d7045389de2ed9f55aaf778/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f81c350d1d7045389de2ed9f55aaf778
+run_name: adaptable-kite-173
+run_uuid: f81c350d1d7045389de2ed9f55aaf778
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752435904204
+status: 1
+tags: []
+user_id: baelfur

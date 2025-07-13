@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/solution/mlruns/0/3c484080251b4e7ab66c350ca4c39aed/artifacts
+end_time: 1752440173957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c484080251b4e7ab66c350ca4c39aed
+run_name: luminous-jay-550
+run_uuid: 3c484080251b4e7ab66c350ca4c39aed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752440093025
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/c77f1bc399734639a3a4758234872039/artifacts
+end_time: 1752436438438
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c77f1bc399734639a3a4758234872039
+run_name: judicious-hen-474
+run_uuid: c77f1bc399734639a3a4758234872039
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752436423115
+status: 4
+tags: []
+user_id: baelfur

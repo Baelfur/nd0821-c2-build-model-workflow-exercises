@@ -1,0 +1,12 @@
+2025-07-13 14:53:51,636 Downloading and reading test artifact
+2025-07-13 14:53:52,737 Extracting target from dataframe
+2025-07-13 14:53:52,739 Splitting train/val
+2025-07-13 14:53:52,757 Setting up pipeline
+Traceback (most recent call last):
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py", line 224, in <module>
+    go(args)
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py", line 45, in go
+    pipe = get_inference_pipeline(args)
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py", line 172, in get_inference_pipeline
+    ("cat", categorical_transformer, categorical_features) # COMPLETE HERE using the categorical transformer and the categorical_features,
+TypeError: 'tuple' object is not callable

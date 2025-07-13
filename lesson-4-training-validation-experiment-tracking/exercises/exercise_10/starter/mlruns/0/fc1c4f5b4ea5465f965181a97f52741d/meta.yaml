@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/fc1c4f5b4ea5465f965181a97f52741d/artifacts
+end_time: 1752436129329
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc1c4f5b4ea5465f965181a97f52741d
+run_name: kindly-penguin-109
+run_uuid: fc1c4f5b4ea5465f965181a97f52741d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752436086774
+status: 4
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/solution/mlruns/0/04bf7483a9ba498388249271a1ca9c12/artifacts
+end_time: 1752436792842
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04bf7483a9ba498388249271a1ca9c12
+run_name: persistent-squid-997
+run_uuid: 04bf7483a9ba498388249271a1ca9c12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752436758187
+status: 4
+tags: []
+user_id: baelfur
