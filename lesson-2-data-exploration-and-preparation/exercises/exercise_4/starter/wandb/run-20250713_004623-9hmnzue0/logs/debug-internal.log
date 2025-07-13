@@ -1,0 +1,13 @@
+{"time":"2025-07-13T00:46:24.175021546-05:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-13T00:46:25.045401452-05:00","level":"INFO","msg":"stream: created new stream","id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:25.045436662-05:00","level":"INFO","msg":"stream: started","id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:25.045477708-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:25.04551362-05:00","level":"INFO","msg":"sender: started","stream_id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:25.045541741-05:00","level":"INFO","msg":"handler: started","stream_id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:26.512706382-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact genres_mod.parquet","runtime_seconds":1.002664031,"subtasks":[{"desc":"genres_mod.parquet","runtime_seconds":0.544863711,"progress":"1.0MB/1.0MB"}]}],"total_operations":1}}
+{"time":"2025-07-13T00:46:27.356709456-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-13T00:46:27.596569849-05:00","level":"INFO","msg":"stream: closing","id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:27.596597389-05:00","level":"INFO","msg":"handler: closed","stream_id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:27.596605705-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:27.596620635-05:00","level":"INFO","msg":"sender: closed","stream_id":"9hmnzue0"}
+{"time":"2025-07-13T00:46:27.596648461-05:00","level":"INFO","msg":"stream: closed","id":"9hmnzue0"}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/58862c7ea3e649d8b5886b85d66ded0f/artifacts
+end_time: 1752388354198
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58862c7ea3e649d8b5886b85d66ded0f
+run_name: caring-koi-792
+run_uuid: 58862c7ea3e649d8b5886b85d66ded0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752386876877
+status: 4
+tags: []
+user_id: baelfur

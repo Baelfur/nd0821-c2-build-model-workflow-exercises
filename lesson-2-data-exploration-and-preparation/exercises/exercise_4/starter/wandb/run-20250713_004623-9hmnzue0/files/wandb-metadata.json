@@ -1,0 +1,48 @@
+{
+  "os":  "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-07-13T05:46:23.922640Z",
+  "args":  [
+    "artifact",
+    "put",
+    "--name",
+    "exercise_4/genres_mod.parquet",
+    "--type",
+    "raw_data",
+    "--description",
+    "A modified version of the songs dataset",
+    "genres_mod.parquet"
+  ],
+  "program":  "/home/baelfur/miniconda3/envs/udacity/bin/wandb",
+  "git":  {
+    "remote":  "https://github.com/Baelfur/nd0821-c2-build-model-workflow-exercises.git",
+    "commit":  "922f112971ba6f97302ee14a067eb154424ace5a"
+  },
+  "email":  "pjacob7@wgu.edu",
+  "root":  "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter",
+  "host":  "beast",
+  "executable":  "/home/baelfur/miniconda3/envs/udacity/bin/python3.8",
+  "cpu_count":  12,
+  "cpu_count_logical":  24,
+  "gpu":  "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "26392272896"
+    }
+  },
+  "memory":  {
+    "total":  "33610530816"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5070 Ti",
+      "memoryTotal":  "17094934528",
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-294f49f4-16b5-c3e4-6622-cb0666052085"
+    }
+  ],
+  "cudaVersion":  "12.9",
+  "writerId":  "xhlbz6k8lk3bag01frk9jv6opykb1qqr"
+}
