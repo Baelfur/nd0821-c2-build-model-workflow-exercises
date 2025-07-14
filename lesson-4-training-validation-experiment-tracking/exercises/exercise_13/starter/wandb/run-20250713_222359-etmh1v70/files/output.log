@@ -1,0 +1,18 @@
+2025-07-13 22:24:02,151 Downloading and reading test artifact
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Traceback (most recent call last):
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 99, in <module>
+    go(args)
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 21, in go
+    df = pd.read_csv(test_data_path, low_memory=False)
+  File "/home/baelfur/miniconda3/envs/mlflow-e11c28825e85dc4d03dae8cf57d7ab8af8ccad75/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/baelfur/miniconda3/envs/mlflow-e11c28825e85dc4d03dae8cf57d7ab8af8ccad75/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/baelfur/miniconda3/envs/mlflow-e11c28825e85dc4d03dae8cf57d7ab8af8ccad75/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/baelfur/miniconda3/envs/mlflow-e11c28825e85dc4d03dae8cf57d7ab8af8ccad75/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/baelfur/miniconda3/envs/mlflow-e11c28825e85dc4d03dae8cf57d7ab8af8ccad75/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+IsADirectoryError: [Errno 21] Is a directory: '/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/artifacts/data_test.csv:v1'

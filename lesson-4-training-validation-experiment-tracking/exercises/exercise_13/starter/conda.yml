@@ -16,3 +16,4 @@ dependencies:
   - pip:
       - wandb==0.16.4
       - omegaconf==2.3.0
+      - databricks_cli==0.17.4

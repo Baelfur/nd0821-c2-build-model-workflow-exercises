@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/ffc0972dcaca41078633ed952fd29c06/artifacts
+end_time: 1752463448944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ffc0972dcaca41078633ed952fd29c06
+run_name: enthused-shrimp-370
+run_uuid: ffc0972dcaca41078633ed952fd29c06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752463389710
+status: 4
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/7c9655bd9cc645ee90c8e33f01cf3deb/artifacts
+end_time: 1752463370744
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c9655bd9cc645ee90c8e33f01cf3deb
+run_name: handsome-croc-228
+run_uuid: 7c9655bd9cc645ee90c8e33f01cf3deb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752463367886
+status: 4
+tags: []
+user_id: baelfur

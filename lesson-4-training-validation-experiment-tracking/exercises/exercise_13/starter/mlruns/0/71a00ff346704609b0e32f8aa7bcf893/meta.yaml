@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/71a00ff346704609b0e32f8aa7bcf893/artifacts
+end_time: 1752463634205
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71a00ff346704609b0e32f8aa7bcf893
+run_name: grandiose-goat-130
+run_uuid: 71a00ff346704609b0e32f8aa7bcf893
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752463617873
+status: 3
+tags: []
+user_id: baelfur
