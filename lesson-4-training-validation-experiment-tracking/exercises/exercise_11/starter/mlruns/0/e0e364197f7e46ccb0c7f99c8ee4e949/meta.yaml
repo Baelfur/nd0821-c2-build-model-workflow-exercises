@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e0e364197f7e46ccb0c7f99c8ee4e949/artifacts
+end_time: 1752459325250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0e364197f7e46ccb0c7f99c8ee4e949
+run_name: righteous-roo-266
+run_uuid: e0e364197f7e46ccb0c7f99c8ee4e949
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459163578
+status: 3
+tags: []
+user_id: baelfur

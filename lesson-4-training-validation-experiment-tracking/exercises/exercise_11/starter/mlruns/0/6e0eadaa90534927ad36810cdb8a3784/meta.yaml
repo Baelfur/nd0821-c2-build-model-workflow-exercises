@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/6e0eadaa90534927ad36810cdb8a3784/artifacts
+end_time: 1752459314264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e0eadaa90534927ad36810cdb8a3784
+run_name: receptive-shrimp-125
+run_uuid: 6e0eadaa90534927ad36810cdb8a3784
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459238639
+status: 3
+tags: []
+user_id: baelfur

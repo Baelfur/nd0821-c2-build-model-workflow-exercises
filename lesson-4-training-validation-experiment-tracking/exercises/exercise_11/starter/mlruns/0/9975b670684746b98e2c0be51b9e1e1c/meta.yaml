@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/9975b670684746b98e2c0be51b9e1e1c/artifacts
+end_time: 1752459220217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9975b670684746b98e2c0be51b9e1e1c
+run_name: orderly-seal-590
+run_uuid: 9975b670684746b98e2c0be51b9e1e1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169698
+status: 3
+tags: []
+user_id: baelfur

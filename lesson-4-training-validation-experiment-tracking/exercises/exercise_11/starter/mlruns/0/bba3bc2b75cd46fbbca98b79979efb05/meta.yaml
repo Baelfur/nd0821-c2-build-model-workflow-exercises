@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/bba3bc2b75cd46fbbca98b79979efb05/artifacts
+end_time: 1752459294384
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bba3bc2b75cd46fbbca98b79979efb05
+run_name: peaceful-smelt-305
+run_uuid: bba3bc2b75cd46fbbca98b79979efb05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459211187
+status: 3
+tags: []
+user_id: baelfur

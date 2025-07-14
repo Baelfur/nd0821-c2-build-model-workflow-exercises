@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/72d4433719c14842bffe4a3c679835cc/artifacts
+end_time: 1752458681810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72d4433719c14842bffe4a3c679835cc
+run_name: shivering-tern-119
+run_uuid: 72d4433719c14842bffe4a3c679835cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613791
+status: 3
+tags: []
+user_id: baelfur

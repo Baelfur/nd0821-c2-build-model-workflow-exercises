@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/86f8c222771e4a48810e27ed43532873/artifacts
+end_time: 1752459238295
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86f8c222771e4a48810e27ed43532873
+run_name: selective-stag-172
+run_uuid: 86f8c222771e4a48810e27ed43532873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169730
+status: 3
+tags: []
+user_id: baelfur

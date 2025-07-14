@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ca96c86993bb45b48da1a9fc5faf0280/artifacts
+end_time: 1752459226166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca96c86993bb45b48da1a9fc5faf0280
+run_name: righteous-grouse-160
+run_uuid: ca96c86993bb45b48da1a9fc5faf0280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169611
+status: 3
+tags: []
+user_id: baelfur

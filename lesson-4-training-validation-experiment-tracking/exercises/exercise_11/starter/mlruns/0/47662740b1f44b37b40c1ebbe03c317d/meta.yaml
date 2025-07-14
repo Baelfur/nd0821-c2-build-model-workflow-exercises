@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/47662740b1f44b37b40c1ebbe03c317d/artifacts
+end_time: 1752459250434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47662740b1f44b37b40c1ebbe03c317d
+run_name: polite-koi-884
+run_uuid: 47662740b1f44b37b40c1ebbe03c317d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169771
+status: 3
+tags: []
+user_id: baelfur

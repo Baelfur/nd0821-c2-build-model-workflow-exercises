@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f531075941cf4f86af4d1d2294688d3e/artifacts
+end_time: 1752459311116
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f531075941cf4f86af4d1d2294688d3e
+run_name: painted-newt-225
+run_uuid: f531075941cf4f86af4d1d2294688d3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459230599
+status: 3
+tags: []
+user_id: baelfur

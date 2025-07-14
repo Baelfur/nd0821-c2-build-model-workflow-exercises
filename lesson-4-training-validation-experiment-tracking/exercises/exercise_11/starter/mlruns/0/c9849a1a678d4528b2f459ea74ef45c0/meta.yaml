@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c9849a1a678d4528b2f459ea74ef45c0/artifacts
+end_time: 1752459238337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9849a1a678d4528b2f459ea74ef45c0
+run_name: valuable-mare-952
+run_uuid: c9849a1a678d4528b2f459ea74ef45c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169749
+status: 3
+tags: []
+user_id: baelfur

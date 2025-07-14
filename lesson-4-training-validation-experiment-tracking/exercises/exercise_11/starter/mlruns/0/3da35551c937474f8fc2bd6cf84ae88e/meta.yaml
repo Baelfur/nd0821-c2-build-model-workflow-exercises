@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/3da35551c937474f8fc2bd6cf84ae88e/artifacts
+end_time: 1752459210478
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3da35551c937474f8fc2bd6cf84ae88e
+run_name: charming-sloth-609
+run_uuid: 3da35551c937474f8fc2bd6cf84ae88e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169617
+status: 3
+tags: []
+user_id: baelfur

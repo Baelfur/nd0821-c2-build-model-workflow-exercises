@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f1e58e4f48284754b93229c11411f94e/artifacts
+end_time: 1752459323779
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1e58e4f48284754b93229c11411f94e
+run_name: gaudy-hare-219
+run_uuid: f1e58e4f48284754b93229c11411f94e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459250630
+status: 3
+tags: []
+user_id: baelfur

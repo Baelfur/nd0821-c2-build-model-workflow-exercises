@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e1548fb16ee24197ab8756295c0865ec/artifacts
+end_time: 1752458682756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1548fb16ee24197ab8756295c0865ec
+run_name: rumbling-grouse-101
+run_uuid: e1548fb16ee24197ab8756295c0865ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613791
+status: 3
+tags: []
+user_id: baelfur

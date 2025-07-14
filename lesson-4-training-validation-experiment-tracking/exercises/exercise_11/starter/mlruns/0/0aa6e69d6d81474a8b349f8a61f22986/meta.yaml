@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/0aa6e69d6d81474a8b349f8a61f22986/artifacts
+end_time: 1752458505288
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0aa6e69d6d81474a8b349f8a61f22986
+run_name: magnificent-gull-906
+run_uuid: 0aa6e69d6d81474a8b349f8a61f22986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458502648
+status: 4
+tags: []
+user_id: baelfur

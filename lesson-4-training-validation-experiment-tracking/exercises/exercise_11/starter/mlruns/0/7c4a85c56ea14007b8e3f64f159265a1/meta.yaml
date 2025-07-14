@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/7c4a85c56ea14007b8e3f64f159265a1/artifacts
+end_time: 1752458685106
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c4a85c56ea14007b8e3f64f159265a1
+run_name: brawny-squirrel-497
+run_uuid: 7c4a85c56ea14007b8e3f64f159265a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613771
+status: 3
+tags: []
+user_id: baelfur

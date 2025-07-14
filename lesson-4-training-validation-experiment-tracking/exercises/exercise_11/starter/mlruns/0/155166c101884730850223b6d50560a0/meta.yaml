@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/155166c101884730850223b6d50560a0/artifacts
+end_time: 1752459212773
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 155166c101884730850223b6d50560a0
+run_name: abrasive-snipe-8
+run_uuid: 155166c101884730850223b6d50560a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169723
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/59a199da84bb46aa838b2a80d9957ef2/artifacts
+end_time: 1752459289283
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59a199da84bb46aa838b2a80d9957ef2
+run_name: rumbling-smelt-844
+run_uuid: 59a199da84bb46aa838b2a80d9957ef2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459205697
+status: 3
+tags: []
+user_id: baelfur

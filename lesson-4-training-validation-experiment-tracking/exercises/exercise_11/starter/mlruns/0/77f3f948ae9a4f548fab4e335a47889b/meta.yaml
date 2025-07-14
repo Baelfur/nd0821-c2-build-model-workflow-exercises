@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/77f3f948ae9a4f548fab4e335a47889b/artifacts
+end_time: 1752457911125
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77f3f948ae9a4f548fab4e335a47889b
+run_name: colorful-conch-95
+run_uuid: 77f3f948ae9a4f548fab4e335a47889b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752457895874
+status: 3
+tags: []
+user_id: baelfur

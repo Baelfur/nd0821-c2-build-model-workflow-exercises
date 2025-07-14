@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/a9f8313a8e0b49f9b3b8e27f5aa8b931/artifacts
+end_time: 1752457929133
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9f8313a8e0b49f9b3b8e27f5aa8b931
+run_name: selective-sow-894
+run_uuid: a9f8313a8e0b49f9b3b8e27f5aa8b931
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752457911201
+status: 3
+tags: []
+user_id: baelfur

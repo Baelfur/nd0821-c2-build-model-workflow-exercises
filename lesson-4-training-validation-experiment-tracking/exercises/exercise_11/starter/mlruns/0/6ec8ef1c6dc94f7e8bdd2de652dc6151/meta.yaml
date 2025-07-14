@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/6ec8ef1c6dc94f7e8bdd2de652dc6151/artifacts
+end_time: 1752459250284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ec8ef1c6dc94f7e8bdd2de652dc6151
+run_name: nimble-wolf-740
+run_uuid: 6ec8ef1c6dc94f7e8bdd2de652dc6151
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169696
+status: 3
+tags: []
+user_id: baelfur

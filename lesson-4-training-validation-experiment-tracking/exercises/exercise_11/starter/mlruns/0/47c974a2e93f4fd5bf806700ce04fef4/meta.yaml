@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/47c974a2e93f4fd5bf806700ce04fef4/artifacts
+end_time: 1752459228585
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47c974a2e93f4fd5bf806700ce04fef4
+run_name: smiling-conch-840
+run_uuid: 47c974a2e93f4fd5bf806700ce04fef4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169609
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/4b50632a162a489fbeddba3e3daceec5/artifacts
+end_time: 1752457952264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b50632a162a489fbeddba3e3daceec5
+run_name: delightful-mole-280
+run_uuid: 4b50632a162a489fbeddba3e3daceec5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752457893008
+status: 3
+tags: []
+user_id: baelfur

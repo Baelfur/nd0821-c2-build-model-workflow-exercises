@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/33f70f4937f64c70a4e440e88274f114/artifacts
+end_time: 1752459261060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33f70f4937f64c70a4e440e88274f114
+run_name: clean-calf-568
+run_uuid: 33f70f4937f64c70a4e440e88274f114
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169862
+status: 3
+tags: []
+user_id: baelfur

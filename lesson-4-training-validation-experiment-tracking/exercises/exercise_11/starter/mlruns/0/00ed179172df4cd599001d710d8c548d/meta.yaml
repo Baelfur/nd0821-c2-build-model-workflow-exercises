@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/00ed179172df4cd599001d710d8c548d/artifacts
+end_time: 1752459256208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00ed179172df4cd599001d710d8c548d
+run_name: useful-cat-602
+run_uuid: 00ed179172df4cd599001d710d8c548d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169620
+status: 3
+tags: []
+user_id: baelfur

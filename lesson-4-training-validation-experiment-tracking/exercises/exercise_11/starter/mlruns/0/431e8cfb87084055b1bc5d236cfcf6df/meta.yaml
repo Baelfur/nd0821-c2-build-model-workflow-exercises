@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/431e8cfb87084055b1bc5d236cfcf6df/artifacts
+end_time: 1752458935169
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 431e8cfb87084055b1bc5d236cfcf6df
+run_name: grandiose-yak-710
+run_uuid: 431e8cfb87084055b1bc5d236cfcf6df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458873879
+status: 3
+tags: []
+user_id: baelfur

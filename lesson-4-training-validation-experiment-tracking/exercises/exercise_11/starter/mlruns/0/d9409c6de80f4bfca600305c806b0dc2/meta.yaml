@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d9409c6de80f4bfca600305c806b0dc2/artifacts
+end_time: 1752458646747
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9409c6de80f4bfca600305c806b0dc2
+run_name: tasteful-snail-477
+run_uuid: d9409c6de80f4bfca600305c806b0dc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613759
+status: 3
+tags: []
+user_id: baelfur

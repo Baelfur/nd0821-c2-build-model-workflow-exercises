@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/b9292c27e0104ac2b9a026e3724e862b/artifacts
+end_time: 1752459324437
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9292c27e0104ac2b9a026e3724e862b
+run_name: awesome-carp-487
+run_uuid: b9292c27e0104ac2b9a026e3724e862b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459250698
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/1c8e873ae0854ccb97cb9e0bd6d4c417/artifacts
+end_time: 1752459256208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c8e873ae0854ccb97cb9e0bd6d4c417
+run_name: resilient-snail-987
+run_uuid: 1c8e873ae0854ccb97cb9e0bd6d4c417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169850
+status: 3
+tags: []
+user_id: baelfur

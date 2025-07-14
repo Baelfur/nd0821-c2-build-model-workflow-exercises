@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/fecd825e81e34400af6bed94a95bb809/artifacts
+end_time: 1752459211653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fecd825e81e34400af6bed94a95bb809
+run_name: gregarious-ant-352
+run_uuid: fecd825e81e34400af6bed94a95bb809
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169559
+status: 3
+tags: []
+user_id: baelfur

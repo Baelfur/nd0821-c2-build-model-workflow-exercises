@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/42abfa57d9df41fba1001232ebca2b08/artifacts
+end_time: 1752459230350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42abfa57d9df41fba1001232ebca2b08
+run_name: rogue-stork-963
+run_uuid: 42abfa57d9df41fba1001232ebca2b08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459169730
+status: 3
+tags: []
+user_id: baelfur

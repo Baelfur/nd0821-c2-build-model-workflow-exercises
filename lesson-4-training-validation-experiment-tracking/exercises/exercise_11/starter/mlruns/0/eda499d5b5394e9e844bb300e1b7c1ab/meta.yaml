@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/eda499d5b5394e9e844bb300e1b7c1ab/artifacts
+end_time: 1752459259926
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eda499d5b5394e9e844bb300e1b7c1ab
+run_name: awesome-sloth-332
+run_uuid: eda499d5b5394e9e844bb300e1b7c1ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459170206
+status: 3
+tags: []
+user_id: baelfur

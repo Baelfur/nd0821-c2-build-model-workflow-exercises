@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/bd7413f794634a91a425fd52aa9b59c8/artifacts
+end_time: 1752458678944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd7413f794634a91a425fd52aa9b59c8
+run_name: honorable-seal-282
+run_uuid: bd7413f794634a91a425fd52aa9b59c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613772
+status: 3
+tags: []
+user_id: baelfur

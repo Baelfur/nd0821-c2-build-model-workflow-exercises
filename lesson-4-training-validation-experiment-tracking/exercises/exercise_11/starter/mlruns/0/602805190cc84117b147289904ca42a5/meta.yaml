@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/602805190cc84117b147289904ca42a5/artifacts
+end_time: 1752459313387
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 602805190cc84117b147289904ca42a5
+run_name: bright-cat-423
+run_uuid: 602805190cc84117b147289904ca42a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459238576
+status: 3
+tags: []
+user_id: baelfur

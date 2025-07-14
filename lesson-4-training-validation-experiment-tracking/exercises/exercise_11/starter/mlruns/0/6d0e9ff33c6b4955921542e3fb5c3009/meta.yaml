@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/6d0e9ff33c6b4955921542e3fb5c3009/artifacts
+end_time: 1752459296696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d0e9ff33c6b4955921542e3fb5c3009
+run_name: likeable-sheep-388
+run_uuid: 6d0e9ff33c6b4955921542e3fb5c3009
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459210756
+status: 3
+tags: []
+user_id: baelfur

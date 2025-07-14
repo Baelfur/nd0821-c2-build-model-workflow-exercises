@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/a536faf214e64768a292716088bc8a5d/artifacts
+end_time: 1752458133282
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a536faf214e64768a292716088bc8a5d
+run_name: clumsy-mouse-773
+run_uuid: a536faf214e64768a292716088bc8a5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458113325
+status: 3
+tags: []
+user_id: baelfur

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c567c4b49a994442b5bfc34db59bd13c/artifacts
+end_time: 1752458656510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c567c4b49a994442b5bfc34db59bd13c
+run_name: brawny-hare-193
+run_uuid: c567c4b49a994442b5bfc34db59bd13c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613790
+status: 3
+tags: []
+user_id: baelfur

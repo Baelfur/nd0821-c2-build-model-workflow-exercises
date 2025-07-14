@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/bc9ece455d904c96a02861692475b2ec/artifacts
+end_time: 1752458682701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc9ece455d904c96a02861692475b2ec
+run_name: powerful-mule-815
+run_uuid: bc9ece455d904c96a02861692475b2ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613789
+status: 3
+tags: []
+user_id: baelfur

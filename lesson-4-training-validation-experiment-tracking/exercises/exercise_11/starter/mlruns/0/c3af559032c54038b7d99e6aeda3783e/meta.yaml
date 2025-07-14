@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c3af559032c54038b7d99e6aeda3783e/artifacts
+end_time: 1752459316775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c3af559032c54038b7d99e6aeda3783e
+run_name: resilient-newt-87
+run_uuid: c3af559032c54038b7d99e6aeda3783e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459239441
+status: 3
+tags: []
+user_id: baelfur

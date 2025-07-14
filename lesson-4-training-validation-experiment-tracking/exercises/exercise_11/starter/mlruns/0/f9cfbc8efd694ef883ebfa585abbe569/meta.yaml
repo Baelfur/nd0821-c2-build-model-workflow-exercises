@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f9cfbc8efd694ef883ebfa585abbe569/artifacts
+end_time: 1752458326063
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9cfbc8efd694ef883ebfa585abbe569
+run_name: delightful-yak-452
+run_uuid: f9cfbc8efd694ef883ebfa585abbe569
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458323429
+status: 4
+tags: []
+user_id: baelfur

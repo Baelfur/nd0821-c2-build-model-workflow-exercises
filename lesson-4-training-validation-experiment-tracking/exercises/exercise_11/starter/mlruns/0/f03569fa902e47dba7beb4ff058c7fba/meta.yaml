@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f03569fa902e47dba7beb4ff058c7fba/artifacts
+end_time: 1752457952160
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f03569fa902e47dba7beb4ff058c7fba
+run_name: shivering-bug-5
+run_uuid: f03569fa902e47dba7beb4ff058c7fba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752457929207
+status: 3
+tags: []
+user_id: baelfur

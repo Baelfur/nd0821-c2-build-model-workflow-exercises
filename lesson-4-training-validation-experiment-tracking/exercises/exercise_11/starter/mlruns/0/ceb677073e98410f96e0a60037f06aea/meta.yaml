@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ceb677073e98410f96e0a60037f06aea/artifacts
+end_time: 1752457173955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ceb677073e98410f96e0a60037f06aea
+run_name: abrasive-sloth-435
+run_uuid: ceb677073e98410f96e0a60037f06aea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752457133616
+status: 4
+tags: []
+user_id: baelfur

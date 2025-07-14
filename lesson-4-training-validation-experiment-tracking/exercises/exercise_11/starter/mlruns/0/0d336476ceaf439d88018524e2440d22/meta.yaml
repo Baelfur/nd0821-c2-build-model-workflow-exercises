@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/0d336476ceaf439d88018524e2440d22/artifacts
+end_time: 1752458679378
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d336476ceaf439d88018524e2440d22
+run_name: mysterious-sloth-532
+run_uuid: 0d336476ceaf439d88018524e2440d22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613760
+status: 3
+tags: []
+user_id: baelfur

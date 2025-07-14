@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/57c50104b0724993a93b25854ba25a0f/artifacts
+end_time: 1752458651068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57c50104b0724993a93b25854ba25a0f
+run_name: classy-tern-42
+run_uuid: 57c50104b0724993a93b25854ba25a0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752458613717
+status: 3
+tags: []
+user_id: baelfur

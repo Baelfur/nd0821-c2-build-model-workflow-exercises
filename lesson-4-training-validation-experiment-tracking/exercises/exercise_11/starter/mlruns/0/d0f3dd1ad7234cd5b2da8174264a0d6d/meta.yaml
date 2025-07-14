@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d0f3dd1ad7234cd5b2da8174264a0d6d/artifacts
+end_time: 1752459300389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0f3dd1ad7234cd5b2da8174264a0d6d
+run_name: intrigued-ray-540
+run_uuid: d0f3dd1ad7234cd5b2da8174264a0d6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752459220128
+status: 3
+tags: []
+user_id: baelfur
