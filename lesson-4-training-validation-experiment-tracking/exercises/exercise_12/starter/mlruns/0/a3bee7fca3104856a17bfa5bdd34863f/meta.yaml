@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/a3bee7fca3104856a17bfa5bdd34863f/artifacts
+end_time: 1752461202269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3bee7fca3104856a17bfa5bdd34863f
+run_name: gaudy-sow-716
+run_uuid: a3bee7fca3104856a17bfa5bdd34863f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752461164249
+status: 4
+tags: []
+user_id: baelfur

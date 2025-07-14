@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/88ab2e7dfbcb4bcfa2693cb6d6bac92c/artifacts
+end_time: 1752461746712
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88ab2e7dfbcb4bcfa2693cb6d6bac92c
+run_name: spiffy-skunk-454
+run_uuid: 88ab2e7dfbcb4bcfa2693cb6d6bac92c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752461716370
+status: 3
+tags: []
+user_id: baelfur

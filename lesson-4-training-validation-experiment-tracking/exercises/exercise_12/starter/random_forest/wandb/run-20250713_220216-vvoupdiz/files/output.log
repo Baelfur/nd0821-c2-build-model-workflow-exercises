@@ -1,0 +1,9 @@
+2025-07-13 22:02:18,391 Downloading and reading test artifact
+2025-07-13 22:02:19,144 Extracting target from dataframe
+2025-07-13 22:02:19,146 Splitting train/val
+2025-07-13 22:02:19,162 Setting up pipeline
+2025-07-13 22:02:19,165 Fitting
+2025-07-13 22:02:29,759 Scoring
+/home/baelfur/miniconda3/envs/mlflow-0df1ac0544e14f7c384615841b68083104faaa94/lib/python3.10/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+[34m[1mwandb[39m[22m: Adding directory to artifact (/tmp/tmpyps2txyk/model_export)... Done. 0.0s

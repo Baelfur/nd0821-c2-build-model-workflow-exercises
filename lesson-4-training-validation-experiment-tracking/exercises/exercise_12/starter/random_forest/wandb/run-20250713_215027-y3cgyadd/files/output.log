@@ -1,0 +1,22 @@
+2025-07-13 21:50:29,868 Downloading and reading test artifact
+2025-07-13 21:50:30,609 Extracting target from dataframe
+2025-07-13 21:50:30,611 Splitting train/val
+2025-07-13 21:50:30,629 Setting up pipeline
+2025-07-13 21:50:30,632 Fitting
+2025-07-13 21:50:39,988 Scoring
+Traceback (most recent call last):
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 247, in <module>
+    go(args)
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 64, in go
+    export_model(run, pipe, X_val, pred, args.export_artifact)
+  File "/home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 104, in export_model
+    signature = infer_signature(X_val, val_pred)
+  File "/home/baelfur/miniconda3/envs/mlflow-0df1ac0544e14f7c384615841b68083104faaa94/lib/python3.10/site-packages/mlflow/models/signature.py", line 212, in infer_signature
+    inputs = _infer_schema(model_input) if model_input is not None else None
+  File "/home/baelfur/miniconda3/envs/mlflow-0df1ac0544e14f7c384615841b68083104faaa94/lib/python3.10/site-packages/mlflow/types/utils.py", line 135, in _infer_schema
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/home/baelfur/miniconda3/envs/mlflow-0df1ac0544e14f7c384615841b68083104faaa94/lib/python3.10/site-packages/mlflow/types/utils.py", line 135, in <listcomp>
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/home/baelfur/miniconda3/envs/mlflow-0df1ac0544e14f7c384615841b68083104faaa94/lib/python3.10/site-packages/mlflow/types/utils.py", line 293, in _infer_pandas_column
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Unable to map 'object' type to MLflow DataType. object can be mapped iff all values have identical data type which is one of (string, (bytes or byterray),  int, float).
