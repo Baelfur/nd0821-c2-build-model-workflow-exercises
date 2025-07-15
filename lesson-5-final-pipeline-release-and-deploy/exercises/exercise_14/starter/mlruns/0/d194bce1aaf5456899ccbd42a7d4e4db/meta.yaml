@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/d194bce1aaf5456899ccbd42a7d4e4db/artifacts
+end_time: 1752561312362
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d194bce1aaf5456899ccbd42a7d4e4db
+run_name: marvelous-bass-179
+run_uuid: d194bce1aaf5456899ccbd42a7d4e4db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752561296236
+status: 3
+tags: []
+user_id: baelfur

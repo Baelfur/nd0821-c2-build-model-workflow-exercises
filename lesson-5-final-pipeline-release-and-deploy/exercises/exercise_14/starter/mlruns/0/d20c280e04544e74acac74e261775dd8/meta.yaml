@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/d20c280e04544e74acac74e261775dd8/artifacts
+end_time: 1752561371661
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d20c280e04544e74acac74e261775dd8
+run_name: abrasive-loon-779
+run_uuid: d20c280e04544e74acac74e261775dd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752561254559
+status: 3
+tags: []
+user_id: baelfur

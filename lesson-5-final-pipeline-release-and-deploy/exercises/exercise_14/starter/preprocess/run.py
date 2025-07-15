@@ -25,6 +25,15 @@ def go(args):
     logger.info("Dropping duplicates")
     df = df.drop_duplicates().reset_index(drop=True)
 
+    # Super tired of NaN quant columns ruining my day
+    logger.info("Dropping NaN quant columns")
+    numeric_columns = [
+        "danceability", "energy", "loudness", "speechiness", "acousticness",
+        "instrumentalness", "liveness", "valence", "tempo"
+    ]
+#    required_columns = ["loudness"]
+    df = df.dropna(subset=numeric_columns).reset_index(drop=True)
+
     # A minimal feature engineering step: a new feature
     logger.info("Feature engineering")
     df['title'].fillna(value='', inplace=True)

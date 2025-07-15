@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/2c88603aa88948bd9d3e03ebbfd74acb/artifacts
+end_time: 1752561353586
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c88603aa88948bd9d3e03ebbfd74acb
+run_name: puzzled-gnat-378
+run_uuid: 2c88603aa88948bd9d3e03ebbfd74acb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752561328277
+status: 3
+tags: []
+user_id: baelfur

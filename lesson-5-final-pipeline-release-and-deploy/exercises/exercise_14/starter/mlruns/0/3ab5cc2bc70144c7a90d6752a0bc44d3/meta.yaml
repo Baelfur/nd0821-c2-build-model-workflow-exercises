@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/3ab5cc2bc70144c7a90d6752a0bc44d3/artifacts
+end_time: 1752561296224
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ab5cc2bc70144c7a90d6752a0bc44d3
+run_name: popular-smelt-871
+run_uuid: 3ab5cc2bc70144c7a90d6752a0bc44d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752561282703
+status: 3
+tags: []
+user_id: baelfur

@@ -13,3 +13,6 @@ dependencies:
   - pip:
       - wandb==0.16.4
       - hydra-joblib-launcher==1.2.0
+      - databricks-cli==0.14.3
+      - protobuf<4.0.0
+      - numpy<1.24

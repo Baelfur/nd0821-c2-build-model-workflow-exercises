@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/ef5dd8a7699e483a81dabe5f99efb922/artifacts
+end_time: 1752561328264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef5dd8a7699e483a81dabe5f99efb922
+run_name: glamorous-skunk-175
+run_uuid: ef5dd8a7699e483a81dabe5f99efb922
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752561312373
+status: 3
+tags: []
+user_id: baelfur

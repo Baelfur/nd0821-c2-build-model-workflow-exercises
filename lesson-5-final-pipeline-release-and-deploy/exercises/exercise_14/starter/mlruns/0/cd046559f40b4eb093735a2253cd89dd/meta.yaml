@@ -1,0 +1,15 @@
+artifact_uri: file:///home/baelfur/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/cd046559f40b4eb093735a2253cd89dd/artifacts
+end_time: 1752561282693
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd046559f40b4eb093735a2253cd89dd
+run_name: polite-goat-987
+run_uuid: cd046559f40b4eb093735a2253cd89dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752561258195
+status: 3
+tags: []
+user_id: baelfur
